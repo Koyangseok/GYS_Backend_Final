@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파일 다운로드</title>
+    <style>
+        /* * 전체 페이지 스타일: 검은색 배경과 내용 중앙 정렬 
+         */
+        body {
+            background-color: #000000; /* 검은색 배경 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 수직 중앙 정렬 */
+            align-items: center; /* 수평 중앙 정렬 */
+            height: 100vh; /* 뷰포트 전체 높이 사용 */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* * 버튼 스타일 
+         */
+        .download-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 15px; /* 버튼 간 간격 */
+            text-decoration: none; /* 링크 밑줄 제거 */
+            color: #ffffff; /* 버튼 텍스트 색상 (흰색으로 변경) */
+            background-color: #1e90ff; /* 파란색으로 변경 */
+            border: none;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+            box-shadow: 0 5px 15px rgba(30, 144, 255, 0.4); /* 버튼 그림자 색상도 파란색 계열로 변경 */
+        }
+
+        /* 호버 (마우스 오버) 효과 */
+        .download-button:hover {
+            background-color: #007acb; /* 호버 시 더 어두운 파란색으로 변경 */
+            transform: translateY(-2px); /* 약간 위로 이동 */
+        }
+
+        /* 페이지 제목 스타일 (선택 사항) */
+        h1 {
+            color: #ffffff; /* 흰색 글자 */
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>원하시는 파일을 선택하세요</h1>
+
+    <a 
+        href="https://github.com/Koyangseok/GYS-Storage/raw/main/GYS%20History.zip" 
+        target="_blank" 
+        class="download-button"
+    >
+        GYS 시청기록 확장앱 다운로드
+    </a>
+
+    <a 
+        href="https://github.com/Koyangseok/GYS-Storage/raw/main/GYS%20Adblock%20by%20server%20v1.1.zip" 
+        target="_blank" 
+        class="download-button"
+    >
+        GYS 광고차단 확장앱 다운로드
+    </a>
+
+    
+    <a 
+        href="https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?hl=ko" 
+        target="_blank" 
+        class="download-button"
+    >
+        Adguard(Youtube 광고차단) 확장앱 다운로드
+    </a>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
